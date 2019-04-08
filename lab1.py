@@ -110,7 +110,6 @@ def writedb(items) :
 
 ##Main func
 def main() :
-    #SEO_CATE_NAME = 'am-nhac' ####SEO NAME OF CATE -spec to spotlight
     CATES = ['photo-story', 'am-nhac', 'cong-dong-mang', 'cine', 'doi-song', 'check-in', 'dep', 'sao']
     ###fetch all from each cate
     for cate in CATES:
